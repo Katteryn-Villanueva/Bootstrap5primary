@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row mt-4">
             <div class="col">
-                <div class="accordion" id="temario">
+                <div class="accordion accordion-flush" id="temario">
                     <!-- Elemento numero 1 -->
                      <div class="accordion-item">
                         <h2 class="accordion-header" id="encabezado1">
@@ -34,12 +34,56 @@
                         aria-labelledby="encabezado1"
                         data-bs-parent="#temario"
                         >
-                        <div class="accordion-body">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis totam id aspernatur explicabo, enim deleniti, suscipit, recusandae iure ullam voluptatem nobis in labore dolore sint ut cumque. Provident, tempora adipisci.</p>
-                        </div>
-
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis totam id aspernatur explicabo, enim deleniti, suscipit, recusandae iure ullam voluptatem nobis in labore dolore sint ut cumque. Provident, tempora adipisci.</p>
+                            </div>
                         </div>
                      </div>
+
+                    <!-- Elemento numero 2 -->
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="encabezado2">
+                            <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#elemento-2"
+                            aria-expanded="true"
+                            aria-controls="elemento-2"
+                            >
+                                Capitulo 2
+                            </button>
+                        </h2>
+
+                        <div
+                        id="elemento-2"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="encabezado2"
+                        data-bs-parent="#temario"
+                        >
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis totam id aspernatur explicabo, enim deleniti, suscipit, recusandae iure ullam voluptatem nobis in labore dolore sint ut cumque. Provident, tempora adipisci.</p>
+                            </div>
+                        </div>
+                     </div>
+
+                    <!-- Elemento numero 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="encabezado3">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#elemento-3"
+                                aria-expanded="true" aria-controls="elemento-3">
+                                Capitulo 3
+                            </button>
+                        </h2>
+                    
+                        <div id="elemento-3" class="accordion-collapse collapse" aria-labelledby="encabezado3" data-bs-parent="#temario">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis totam id aspernatur explicabo, enim
+                                    deleniti, suscipit, recusandae iure ullam voluptatem nobis in labore dolore sint ut cumque. Provident,
+                                    tempora adipisci.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
