@@ -13,8 +13,17 @@
         <div class="row mt-3">
             <div class="col-6">
                 <form action="">
-                    <label for="correo" class="form-label">Correo Electronico</label>
-                    <input type="text" class="form-control" id="correo" aria-describedby="ayuda-correo">
+                    <div class="mb-3">
+                        <label for="correo" class="form-label">Correo Electronico</label>
+                        <input type="text" class="form-control" id="correo" aria-describedby="ayuda-correo">
+                        <div id="ayuda-correo" class="form-text">
+                            Te enviaremos un mensaje de confirmacion
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" name="mensaje" id="mensaje"></textarea>
+                    </div>
                 </form>
             </div>
         </div>
