@@ -12,7 +12,12 @@
     <div class="container">
         <div class="row mt-3">
             <div class="col-6">
-                <input type="range" class="form-range">
+                <label for="rango" class="form-label">Presupuesto</label>
+                <input type="range" class="form-range" id="rango" min="0" max="1000" step="100">
+                <div class="d-flex justify-content-between">
+                    <p class="form-text">$0</p>
+                    <p class="form-text">$1000</p>
+                </div>
             </div>
         </div>
     </div>
